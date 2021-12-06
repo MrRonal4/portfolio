@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+
+
+body
+{
+    background-color: cadetblue;
+}
+        *{
+        color: black;    
+        text-align: left;
+        font-size: x-large;
+        font-family: 'Bonheur Royale', cursive;
+}
+img
+{
+    background-color: grey;
+    border-radius: 25%;
+}
+ul li a{
+    color: firebrick;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol{
+    background-color: green;
+}
+ul{
+    background-color: lightseagreen;
+}
+h1{
+    background-color: greenyellow;
+}
+h2{
+    background-color: firebrick;
+}

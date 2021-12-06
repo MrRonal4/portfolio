@@ -1,0 +1,27 @@
+body {
+        background-color: dodgerblue;
+    background: linear-gradient(90deg,red,blue);
+}
+td , th {
+    border: 1px solid black;
+    height: 100px;
+}
+table{
+    border: solid black;
+    height: 2px;
+}
+h1{
+    text-align: center;
+    color: cornsilk;
+}
+td:hover{
+    color: rgb(177, 51, 189);
+    border: rgb(209, 31, 70);
+}
+th:hover{
+    color: cyan;
+    border: cyan;
+}
+h1:hover{
+    color: lightslategray;
+}

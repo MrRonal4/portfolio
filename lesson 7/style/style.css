@@ -1,0 +1,35 @@
+.contaner{
+    width: 100%;
+}
+.header{
+    width: 100%;
+    background: black;
+}
+.header-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+   color:white;
+}
+.main-left{
+    background: yellow;
+    width: 300px;
+    height: 600px;
+}
+li:hover{
+ color: coral;
+}
+h2{
+    color:white;
+}
+.footer{
+    width: 100%;
+    background: black;
+}
+.footer-inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

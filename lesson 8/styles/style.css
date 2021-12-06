@@ -1,0 +1,55 @@
+li:hover{
+    font-size: 20px;   
+}
+.box{
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    font-size: initial;
+    background-color:greenyellow;
+    width: 25%;
+}
+.box:hover{
+    animation-duration: 2s;
+    animation-name:slidein;
+}
+@keyframes slidein{
+    from{
+        width: 25%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.somecubs{
+    border-radius: 20px;
+    padding: 20px;
+    color: black;
+    font-size: x-large;
+    background-color: greenyellow;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cubemain{
+background-color: grey;
+height: 75px;
+width: 75px;
+animation:skew 4s infinite;
+opacity:7;
+
+}
+@keyframes skew{
+    0%{
+        transform: skew(20deg);
+    }
+    100%{
+        transform: skew(-20deg);
+    }
+}
+img{
+    border-radius: 10px;
+    width: 100%;
+    height: 20vh;
+}
